@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&=swap');
+
+header {
+  margin-left: 3%;
+  display:flex;
+  flex-wrap: wrap;
+  width:auto;
+  /* justify-content: flex-start; */
+  color: #17caf0;
+}
+
+h1 {
+  font-size: 24px;
+  width: 100%;
+  margin: 1.1rem .1rem 0 0;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+}
+
+h4 {
+  width: 25%;
+  margin: .37em 0 .4em 0;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+}
+
+
+.links{
+  align-self: flex-end;
+  margin: 0 0 .1em 0;
+  display: flex;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+}
+
+.nav-item{
+  text-decoration: none;
+  color: inherit;
+  padding: 2px;
+}
+
+.nav-item:hover {
+  background-color: #17caf0;
+  cursor: pointer;
+  color: black;
+}
+
+.active {
+  color: red;
+}
+
+
+li:not(:last-child):after {
+  content: " | ";
+}
+
+li {
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 2px;
+  height: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  #nav-list {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 28vh;
+    top: 60px;
+    padding-top: 10%;
+    transition: .25s ease;
+    transform: translateX(175%);
+    width: 40%;
+  }
+
+  .show-menu {
+    display: block;
+    transition: .25s ease;
+    transform: translateX(-50%) !important;
+  }
+
+  li {
+    display: block;
+    height: 36px;
+  }
+
+  li:not(:last-child):after {
+    content: "";
+  }
+
+}
