@@ -50,6 +50,7 @@ h4 {
 }
 
 .nav-item {
+  height: 20px;
   text-decoration: none;
   color: inherit;
   padding: 2px;
@@ -58,7 +59,7 @@ h4 {
 .nav-item:hover {
   background-color: #17caf0;
   cursor: pointer;
-  color: black;
+  color: black !important;
 }
 
 .nav-item:visited {
@@ -78,7 +79,6 @@ li {
   display: inline-block;
   font-size: 16px;
   margin-left: 2px;
-  height: 20px;
 }
 
 .page-title{
@@ -140,7 +140,7 @@ li {
     animation: .25s both popin;
   }
 
-  li {
+  #nav-list > li {
     display: block;
     height: 36px;
   }
