@@ -131,6 +131,10 @@ li {
 }
 
 @media only screen and (max-width: 800px) {
+  header{
+    height: 85px;
+  }
+
   h4{
     width: 100%;
   }
@@ -161,11 +165,11 @@ li {
     align-items: center;
     flex-direction: column;
     background-color: white;
-    top: 75px;
+    top: 93px;
     transition: .25s ease;
     transform: translateX(175%);
     width: auto;
-    padding: 0 2% 0 0;
+    padding: 3% 2% 0 2%;
     margin: 0 0 0 0;
   }
 
@@ -187,6 +191,12 @@ li {
 
   li:not(:last-child):after {
     content: "";
+  }
+  #pageContent{
+    font-size: 16px;
+    margin: 5% 0 5% 0;
+    width: 95%;
+    text-align: center;
   }
 }
 
@@ -221,4 +231,13 @@ li {
   h4{
     font-size: 12px;
   }
+
+  #nav-list {
+    top: 60px;
+  }
+
+  header {
+    height: 60px;
+  }
+
 }
