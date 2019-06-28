@@ -1,0 +1,67 @@
+#aboutInfo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.in-text-link:link {
+  color: #17caf0;
+}
+
+.in-text-link:visited {
+  color: red;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#sunflower, #alcoholism {
+  margin: auto 4%;
+  width: 35%;
+  max-width: 360px;
+  height: auto;
+}
+
+.front-page-text{
+  margin: 3vh 0 !important;
+}
+
+#alcoholism {
+  /* max-width: 35%; */
+}
+
+#first-paragraph, #third-paragraph {
+  width: 50%;
+  /* margin: auto 0; */
+}
+
+.front-page-text{
+  margin: 1vh auto;
+}
+
+@media only screen and (max-width: 800px) {
+  #sunflower {
+    width: 95%;
+    margin: auto auto;
+  }
+
+  #first-paragraph {
+    width: 95%;
+    /* margin-bottom: 1vh */
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #alcoholism {
+    width: 95%;
+  }
+
+  #third-paragraph {
+    width: 95%;
+  }
+}

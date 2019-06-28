@@ -1,0 +1,26 @@
+#responsibilities-list {
+  padding-left: 0;
+}
+
+.responsibility-item {
+  height: 100%;
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  padding: 2vh 1vw;
+}
+
+.responsibility-item:after {
+  content: "" !important;
+}
+.responsibility-item:nth-of-type(2n-1) {
+  background-color: rgba(90, 90, 93, 0.6);
+}
+
+.responsibility-item:nth-of-type(2n) {
+  background-color: rgba(50, 80, 70, 0.6);
+}
+
+@media only screen and (max-width: 800px) {}
+
+@media only screen and (max-width: 450px) {}

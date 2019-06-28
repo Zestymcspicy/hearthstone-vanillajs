@@ -10,6 +10,6 @@ gulp.task("serve", function() {
 
 gulp.task('default', ['serve'], function() {
   gulp.watch("*.html", browsersync.reload)
-  gulp.watch("css/styles.css", browsersync.reload)
+  gulp.watch("css/*.css", browsersync.reload)
   gulp.watch("js/index.js", browsersync.reload)
 })
