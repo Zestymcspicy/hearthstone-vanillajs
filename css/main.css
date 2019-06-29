@@ -114,6 +114,7 @@ li {
   }
 
   #nav-list {
+    z-index: 3;
     display: none;
     right: 0;
     position: absolute;

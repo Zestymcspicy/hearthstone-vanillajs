@@ -1,3 +1,59 @@
-@media only screen and (max-width: 800px) {}
+#bridge {
+  width: 300px;
+}
 
-@media only screen and (max-width: 450px) {}
+#pageContent{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#brochure-paragraph{
+  width: 100%;
+}
+
+#download-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  order: 3;
+}
+
+#bridge{
+  min-width: 250px;
+  width: 50%;
+  order: 2;
+}
+
+.download-link{
+  width: 158px;
+}
+
+@media only screen and (max-width: 800px) {
+
+  .download-link {
+    /* width: 45%; */
+  }
+
+  .download-link > img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #download-box {
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: space-around !important;
+  }
+
+  .download-link {
+    width: 45%;
+  }
+
+  #bridge {
+    order: 3;
+    margin: 0 auto;
+  }
+
+}
