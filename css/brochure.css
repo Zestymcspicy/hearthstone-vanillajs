@@ -31,10 +31,6 @@
 
 @media only screen and (max-width: 800px) {
 
-  .download-link {
-    /* width: 45%; */
-  }
-
   .download-link > img {
     width: 100%;
   }
@@ -42,7 +38,6 @@
 
 @media only screen and (max-width: 450px) {
   #download-box {
-    /* display: flex; */
     flex-direction: row;
     justify-content: space-around !important;
   }
@@ -55,5 +50,4 @@
     order: 3;
     margin: 0 auto;
   }
-
 }
