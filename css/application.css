@@ -1,8 +1,9 @@
 #dimbox{
   margin: 5% 0;
   background-color: rgba(208, 210, 200, 0.8);
-  height: 100%;
+  height: auto;
   padding: 2%;
+  color: #05182b;
 }
 
 #applications{

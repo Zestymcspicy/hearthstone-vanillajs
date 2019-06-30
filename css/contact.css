@@ -1,21 +1,120 @@
 
+#mapContactContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  border: none;
+  text-align: center;
+  height: 24px;
+  font-weight: bolder;
+  font-size: 16px;
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+}
+
+#contactBox {
+  text-align: center;
+  width: 50%;
+  margin: 30vh 0 20vh auto;
+}
+
+#contactBox > p {
+  margin: 1vh 0;
+}
+
 iframe{
   width: 100%;
   height: 100%;
 }
 
-#map{
-  width: 30vw;
+#map {
+  width: 35vw;
   height: 75vh;
 }
 
-#map-container{
-  width: 30vw;
-  margin: 30vh 0 0 20vw;
+#emailForm {
+  text-align: center;
+  margin: 7vh 0 5vh 0;
+}
+
+#buttonBox{
+  display: block;
+}
+
+#innerForm {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+#innerForm > input {
+  max-width: 160px;
+  margin: 1vh auto;
+}
+
+#gmap {
+  width: 50%;
+  margin: 15vh 0 20vh auto;
   min-width: 250px;
 }
 
+.hide {
+  animation: .25s both collapse;
+  display: none !important;
+}
 
-@media only screen and (max-width: 800px) {}
+#backgroundImage{
+  min-height: 900px;
+}
 
-@media only screen and (max-width: 450px) {}
+.show {
+  animation: .25s both expand;
+  display:block;
+}
+
+@keyframes expand {
+  0%{
+    transform: scaleY(0);
+  }
+
+  100%{
+    transform: scaleY(1);
+  }
+}
+
+@keyframes collapse {
+  0%{
+    transform: scaleY(1);
+  }
+
+  100%{
+    transform: scaleY(0);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #gmap {
+    width: 100%;
+    margin: 5vh auto 0 auto;
+  }
+
+  #contactBox {
+    width: 100%;
+    margin: 1vh auto 15vh auto;
+  }
+
+  #map{
+    width: 90vw;
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #map{
+    margin: 0 auto;
+    width: 85vw;
+    height: 50vh;
+  }
+}

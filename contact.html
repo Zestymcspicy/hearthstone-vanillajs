@@ -30,12 +30,41 @@
     </div>
     </header>
     <div id="pageContent">
-      <div id="map-container">
-      <div class="gmap">
+      <div id="mapContactContainer" class="show">
+      <div id="gmap">
         <div id="map">
           <iframe  frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJsedOtkNvv4cRwlcGbRXm_6o&key=AIzaSyB63D2az3Guib3VGk7Auoie1fyG3lY1SzQ" allowfullscreen></iframe>
         </div>
       </div>
+      <div id="contactBox">
+      <p>Hearthstone can be contacted at:</p>
+      <p>ADDRESS:</p>
+      <p>745 Ohio Street</p>
+      <p>Lawrence, KS  66044-2365</p>
+      <p>Attn:  House Director</p>
+      <p>PHONE:  	785.749.5409</p>
+      <p>We encourage you to use email should you need more information about Hearthstone:</p>
+      <button id="openEmailForm">
+        Send an Email
+      </button>
+      </div>
+      </div>
+      <div id="emailForm" class="hide">
+        <h2>Send e-mail to House Leader:</h2>
+        <form method="POST" id="innerForm" action="https://formspree.io/halbeckerman@gmail.com">
+          <label for="name">Name:</label>
+          <input type="text" name="name" placeholder="Your name">
+          <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" placeholder="Your phone number">
+          <label for="email">E-mail:</label>
+          <input type="email" name="email" placeholder="Your email">
+          <label for="message">Your Message:</label>
+          <textarea rows="10" cols="30" name="message" placeholder="Test Message"></textarea>
+          <div id="buttonBox">
+            <button id="sendEmail" type="submit">Send</button>
+            <button id="cancelButton">Cancel</button>
+          </div>
+        </form>
       </div>
     </div>
     <script src="js/index.js"></script>
