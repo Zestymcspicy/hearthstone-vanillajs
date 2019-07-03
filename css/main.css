@@ -5,6 +5,10 @@ header {
   z-index: 10;
   top: 0;
   position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   background-color: white;
   z-index: 1;
   padding-left: 3%;
@@ -28,6 +32,8 @@ header {
 }
 
 #backgroundImage{
+  width: 90%;
+  margin: 0 auto;
   background-image: url("../images/forest-leaves.jpg")
 }
 
@@ -160,11 +166,16 @@ li {
   li:not(:last-child):after {
     content: "";
   }
+
   #pageContent{
     font-size: 16px;
     margin: 5% 2px 5% 2px;
     width: 95%;
     text-align: center;
+  }
+
+  #backgroundImage{
+    width: 100%;
   }
 }
 
@@ -173,17 +184,13 @@ li {
     transform: translateX(0%);
    }
 }
+
 @-webkit-keyframes popin {
-  1%{
-    display: none;
-  }
-  2%{
-    display: block;
-  }
   100%{
     transform: translateX(0%);
   }
 }
+
 @-moz-keyframes popin {
   100%{
     transform: translateX(0%);
@@ -199,10 +206,6 @@ li {
   #siteTitle {
     font-size: 24px;
     margin: .1rem .1rem 0 0;
-  }
-
-  #bridge {
-    min-width: 95%;
   }
 
   h4{
