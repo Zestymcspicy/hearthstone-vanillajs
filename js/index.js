@@ -14,7 +14,7 @@ cancelEmailButton.addEventListener('click', e => toggleContent(e))
 openEmailFormButton.addEventListener('click', e => toggleContent(e))
 
 const toggleContent = e => {
-  e.preventDefault()  
+  e.preventDefault()
   emailForm.classList.toggle('show');
   emailForm.classList.toggle('hide');
   mapContactContainer.classList.toggle('hide');

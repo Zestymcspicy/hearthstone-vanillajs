@@ -2,13 +2,13 @@
   width: 300px;
 }
 
-#pageContent{
+#pageContent {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-#brochure-paragraph{
+#brochure-paragraph {
   width: 100%;
 }
 
@@ -19,19 +19,18 @@
   order: 3;
 }
 
-#bridge{
+#bridge {
   min-width: 250px;
   width: 50%;
   order: 2;
 }
 
-.download-link{
+.download-link {
   width: 158px;
 }
 
 @media only screen and (max-width: 800px) {
-
-  .download-link > img {
+  .download-link>img {
     width: 100%;
   }
 }

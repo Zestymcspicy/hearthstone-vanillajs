@@ -1,4 +1,3 @@
-
 #mapContactContainer {
   display: flex;
   flex-wrap: wrap;
@@ -16,7 +15,6 @@
   font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
   width: auto;
 }
-
 
 #openEmailForm {
   margin: 0 auto;
@@ -38,16 +36,17 @@
 
 #contactBox {
   text-align: center;
-  width: 50%;
+  width: 45%;
   margin: 30vh 0 20vh auto;
+  padding-left: 5%;
 }
 
-#contactBox > p {
+#contactBox>p {
   margin: 1vh 0;
 }
 
-iframe{
-  width: 100%;
+iframe {
+  width: 99%;
   height: 100%;
 }
 
@@ -61,7 +60,7 @@ iframe{
   margin: 7vh 0 5vh 0;
 }
 
-#buttonBox{
+#buttonBox {
   display: flex;
   flex-flow: row;
   margin: 2vh 0 0 0;
@@ -70,7 +69,7 @@ iframe{
   height: 50px;
 }
 
-#buttonBox > .button{
+#buttonBox>.button {
   width: 60px;
 }
 
@@ -81,13 +80,13 @@ iframe{
   align-items: center;
 }
 
-#innerForm > input {
+#innerForm>input {
   max-width: 160px;
   margin: 1vh auto;
 }
 
 #gmap {
-  width: 50%;
+  width: 48%;
   margin: 15vh 0 20vh auto;
   min-width: 250px;
 }
@@ -100,7 +99,7 @@ iframe{
   display: none !important;
 }
 
-#backgroundImage{
+#backgroundImage {
   min-height: 900px;
 }
 
@@ -109,88 +108,95 @@ iframe{
   -o-animation: .25s both expand;
   -moz-animation: .25s both expand;
   -webkit-animation: .25s both expand;
-  display:block;
+  display: block;
 }
 
 @keyframes expand {
-  0%{
+  0% {
     transform: scaleY(0);
   }
-  100%{
+
+  100% {
     transform: scaleY(1);
   }
 }
 
 @-webkit-keyframes expand {
-  0%{
+  0% {
     transform: scaleY(0);
   }
-  100%{
+
+  100% {
     transform: scaleY(1);
   }
 }
 
 @-o-keyframes expand {
-  0%{
+  0% {
     transform: scaleY(0);
   }
-  100%{
+
+  100% {
     transform: scaleY(1);
   }
 }
 
 @-moz-keyframes expand {
-  0%{
+  0% {
     transform: scaleY(0);
   }
-  100%{
+
+  100% {
     transform: scaleY(1);
   }
 }
 
 @keyframes collapse {
-  0%{
+  0% {
     transform: scaleY(1);
   }
-  100%{
+
+  100% {
     transform: scaleY(0);
   }
 }
 
 @-o-keyframes collapse {
-  0%{
+  0% {
     transform: scaleY(1);
   }
-  100%{
+
+  100% {
     transform: scaleY(0);
   }
 }
 
 @-webkit-keyframes collapse {
-  0%{
+  0% {
     transform: scaleY(1);
   }
-  100%{
+
+  100% {
     transform: scaleY(0);
   }
 }
 
 @-moz-keyframes collapse {
-  0%{
+  0% {
     transform: scaleY(1);
   }
-  100%{
+
+  100% {
     transform: scaleY(0);
   }
 }
 
 @media only screen and (max-width: 800px) {
-
   #buttonBox {
     width: 35vw;
   }
 
-  #buttonBox > .button {
+  #buttonBox>.button {
     padding: 4% 2% 0 2%;
   }
 
@@ -199,20 +205,19 @@ iframe{
     margin: 5vh auto 0 auto;
   }
 
-
   #contactBox {
     width: 100%;
     margin: 1vh auto 15vh auto;
   }
 
-  #map{
+  #map {
     width: 90vw;
     height: 50vh;
   }
 }
 
 @media only screen and (max-width: 450px) {
-  #map{
+  #map {
     margin: 0 auto;
     width: 85vw;
     height: 50vh;
@@ -225,5 +230,4 @@ iframe{
   #buttonBox {
     width: 50vw;
   }
-
 }
