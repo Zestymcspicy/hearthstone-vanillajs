@@ -79,7 +79,7 @@ h4 {
   color: red;
 }
 
-li:not(:last-child):after {
+#nav-list > li:not(:last-child):after {
   content: " | ";
 }
 
