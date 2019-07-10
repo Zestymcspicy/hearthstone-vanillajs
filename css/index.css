@@ -4,6 +4,7 @@
   flex-wrap: wrap;
 }
 
+
 .in-text-link:link {
   color: #17caf0;
 }
@@ -31,13 +32,13 @@ img {
   margin: 3vh 0 !important;
 }
 
-#alcoholism {
-  /* max-width: 35%; */
-}
-
 #first-paragraph, #third-paragraph {
   width: 50%;
   /* margin: auto 0; */
+}
+
+#theYard{
+  margin: 0 0 5% 0;
 }
 
 .front-page-text {
@@ -52,6 +53,7 @@ img {
 
   #first-paragraph {
     width: 95%;
+    text-align: center;
     /* margin-bottom: 1vh */
   }
 }

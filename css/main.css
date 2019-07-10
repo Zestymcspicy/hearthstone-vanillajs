@@ -160,7 +160,7 @@ li {
     height: 36px;
   }
 
-  li:not(:last-child):after {
+  #nav-list>li:not(:last-child):after {
     content: "";
   }
 
