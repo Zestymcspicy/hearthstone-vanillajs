@@ -30,6 +30,17 @@
   background-color: green;
 }
 
+#sendEmailButton {
+  width: 100%;
+  height: 100%;
+  border: none;
+  color: white;
+  font-family: inherit;
+  padding: 0px 0 5px 0px;
+  font-size: inherit;
+  background-color: inherit;
+}
+
 #cancelButton {
   background-color: red;
 }
