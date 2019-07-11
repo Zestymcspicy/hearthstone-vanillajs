@@ -38,7 +38,8 @@ img {
 }
 
 #theYard{
-  margin: 0 0 5% 0;
+  width: 90%;
+  margin: 0 auto 5% auto;
 }
 
 .front-page-text {
