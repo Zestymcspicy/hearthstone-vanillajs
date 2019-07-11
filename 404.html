@@ -2,68 +2,72 @@
 <html lang="en" dir="ltr">
 
   <head>
-    <meta http-equiv="refresh" content="2;index.html">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hearthstone: Whoops!</title>
   </head>
-  <body>
-    <div>
-    <h1>Are you looking for Hearthstone?</h1>
-    <p>Please follow the link below if you're not redirected</p>
-    <br>
-    <a href="index.html">Hearthstone Homepage</a>
-  </div>
-  </body>
-  <style>
-  @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+ <body>
+   <div>
+   <h1>Are you looking for Hearthstone?</h1>
+   <p>Please follow the link below if you're not redirected</p>
+   <br>
+   <a href="index.html">Hearthstone Homepage</a>
+ </div>
+ </body>
+ <style>
+ @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+ div{
+   display:flex;
+   justify-content: center;
+   flex-direction: column;
+   width: 100%;
+   margin: auto auto;
+   height: 100%;
+ }
+ h1 {
+   font-family: Raleway, Helvetica, Arial, sans-serif;
+   color: #17caf0;
+   display: block !important;
+   animation: .5s both fadein;
+   -o-animation: .5s both fadein;
+   -moz-animation: .5s both fadein;
+   -webkit-animation: .5s both fadein;
+ }
 
+ @-o-keyframes fadein {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
 
+ @-webkit-keyframes fadein {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
 
-  div{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-    margin: auto auto;
-    height: 100%;
-  }
+ @-moz-keyframes fadein {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
 
-  h1 {
-    font-family: Raleway, Helvetica, Arial, sans-serif;
-    color: #17caf0;
-    display: block !important;
-    animation: .5s both fadein;
-    -o-animation: .5s both fadein;
-    -moz-animation: .5s both fadein;
-    -webkit-animation: .5s both fadein;
-  }
-
-  @-o-keyframes fadein {
-    100% {
-      transform: translateX(0%);
-    }
-  }
-
-  @-webkit-keyframes fadein {
-    100% {
-      transform: translateX(0%);
-    }
-  }
-
-  @-moz-keyframes fadein {
-    100% {
-      transform:
-    }
-  }
-
-  @keyframes fadein {
-    0% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
-  }
-  </style>
+ @keyframes fadein {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+ }
+ </style>
 </html>
