@@ -4,7 +4,11 @@ var browsersync = require('browser-sync').create();
 
 gulp.task("serve", function() {
   browsersync.init({
-    server: "./",
+    server: {
+      baseDir: "./",
+    }
+    online: true,
+    tunnel: "mylocal",
   })
 })
 
@@ -13,3 +17,6 @@ gulp.task('default', ['serve'], function() {
   gulp.watch("css/*.css", browsersync.reload)
   gulp.watch("js/index.js", browsersync.reload)
 })
+
+
+// https://mylocal.localtunnel.me
