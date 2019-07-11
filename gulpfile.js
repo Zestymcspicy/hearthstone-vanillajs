@@ -6,7 +6,7 @@ gulp.task("serve", function() {
   browsersync.init({
     server: {
       baseDir: "./",
-    }
+    },
     online: true,
     tunnel: "mylocal",
   })
