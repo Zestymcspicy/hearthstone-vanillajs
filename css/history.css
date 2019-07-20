@@ -1,0 +1,25 @@
+#originalGoals {
+  font-size: 20px;
+}
+
+#originalGoals > li {
+  margin-bottom: 2%;
+}
+
+#historyText {
+  text-align: left;
+}
+
+@media only screen and (max-width: 800px) {
+  #originalGoals {
+    padding-left: 5%;
+    font-size: 16px;
+  }
+
+  #originalGoals > li {
+
+  }
+}
+
+@media only screen and (max-width: 450px) {
+}

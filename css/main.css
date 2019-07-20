@@ -83,7 +83,7 @@ h4 {
   content: " | ";
 }
 
-li {
+#nav-list > li {
   display: inline-block;
   font-size: 16px;
   margin-left: 2px;
@@ -115,7 +115,6 @@ li {
     right: 3%;
     top: 40px;
     transform: translateY(-50%);
-    /* width: 40px; */
   }
 
   #hamburger span {
@@ -155,7 +154,7 @@ li {
     -webkit-animation: .25s both popin;
   }
 
-  #nav-list>li {
+  #nav-list > li {
     display: block;
     height: 36px;
   }
