@@ -40,10 +40,47 @@ img {
 #theYard{
   width: 90%;
   margin: 0 auto 5% auto;
+  animation: fadein 1.5s;
 }
 
 .front-page-text {
   margin: 1vh auto;
+}
+
+@-moz-keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 800px) {
