@@ -10,8 +10,12 @@ hamburger.addEventListener('click', event => {
   navList.classList.toggle("show-menu")
 });
 
-cancelEmailButton.addEventListener('click', e => toggleContent(e))
-openEmailFormButton.addEventListener('click', e => toggleContent(e))
+if(cancelEmailButton){
+  cancelEmailButton.addEventListener('click', e => toggleContent(e))
+}
+if(openEmailFormButton){
+  openEmailFormButton.addEventListener('click', e => toggleContent(e))
+}
 
 const toggleContent = e => {
   e.preventDefault()
