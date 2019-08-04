@@ -1,8 +1,8 @@
-#originalGoals {
+.history-list {
   font-size: 20px;
 }
 
-#originalGoals > li {
+.history-list > li {
   margin-bottom: 2%;
 }
 
@@ -11,12 +11,12 @@
 }
 
 @media only screen and (max-width: 800px) {
-  #originalGoals {
+  .history-list {
     padding-left: 5%;
     font-size: 16px;
   }
 
-  #originalGoals > li {
+  .history-list > li {
 
   }
 }
