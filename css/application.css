@@ -23,9 +23,15 @@ li{
   width: 40%;
 }
 
+.no-list-style{
+  list-style-type: none;
+}
+
 ul {
   padding-left: 0;
+  list-style-type: none;
 }
+
 
 @media only screen and (max-width: 800px) {
   #applications {
