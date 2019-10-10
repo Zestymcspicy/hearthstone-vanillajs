@@ -6,6 +6,10 @@
   color: #05182b;
 }
 
+li{
+  list-style-type: none;
+}
+
 #applications {
   display: flex;
 }
