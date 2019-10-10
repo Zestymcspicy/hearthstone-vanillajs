@@ -18,6 +18,49 @@ header {
   color: #17caf0;
 }
 
+.modal {
+  color: #17caf0;
+  background-color: white;
+  top: 188px;
+  width: 50%;
+  margin: auto;
+  padding: 5px 5px 10px 5px;
+  text-align: center;
+  opacity: 1;
+  font-family: Raleway, Helvetica, Arial, sans-serif;
+}
+
+.modal p{
+  font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.modal h2{
+  font-size: 24px;
+}
+
+#modalCloseButton{
+  background-color: #17caf0;
+  color: white;
+  border: none;
+  border-radius: 15%;
+  padding: 10px 20px;
+}
+
+#modalCloseButton:hover{
+  cursor:pointer;
+}
+
+.modal-background{
+  position:fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+  width:100%;
+  display: flex;
+  z-index: 200;
+}
+
 #facebookIcon {
   position: absolute;
   max-height: 40px;
